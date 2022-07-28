@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Prompt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    font-family: prompt;
+    color: rgb(87, 49, 0);
+}
+
+.inputbox{
+    font-family: prompt;
+    font-weight: 600;
+    font-size: 14px;
+    width: 50vh;
+}
+
+.inputbox > input{
+    padding: 3px;
+    width: 300px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: prompt;
+    letter-spacing: 2px;
+    background: none;
+    color: rgb(87, 49, 0);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.registrar{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: prompt;
+    background-color: rgb(87, 49, 0);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.registrar:hover{
+    background-color: rgb(52, 29, 0);
+}
